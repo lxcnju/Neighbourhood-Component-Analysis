@@ -12,7 +12,7 @@ Four methods to implementing NCA which is often used for metric learning and dim
 * 结果展示
 
 ## 知乎(zhihu)链接
-  * [直方图均衡化](https://zhuanlan.zhihu.com/p/44918476)
+  * [Neighbourhood Component Analysis ](https://zhuanlan.zhihu.com/p/48371593)
 
 ## 代码架构
  * nca_naive.py  使用两层for循环求梯度的实现；速度很慢
