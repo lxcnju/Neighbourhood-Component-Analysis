@@ -29,26 +29,26 @@ Four methods to implementing NCA which is often used for metric learning and dim
   * scipy.optimize实现
 
 ## 结果展示
-  下面给出一些结果图片,前面9张是在mnist上面的结果，选取的数字类别数目分别为2至9，由于原图是784维的，所以先使用PCA降维到100维，然后再使用NCA降维到2维；后面三张是直接使用NCA在digits，breast_cancer和iris数据集降维到2维上得到的结果。
+  下面给出一些结果图片,前面9张是在mnist上面的结果，选取的数字类别数目分别为2至9，由于原图是784维的，所以先使用PCA降维到100维，然后再使用NCA降维到2维；后面三张是直接使用NCA在digits(numpy提供)，breast_cancer和iris数据集降维到2维上得到的结果。
   <div> 
     <table>
      <tr>
-      <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/minist_with_2_digits.jpg"></td>
-      <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/minist_with_3_digits.jpg"></td>
-      <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/minist_with_4_digits.jpg"></td>
+      <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/mnist_with_2_digits.jpg"></td>
+      <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/mnist_with_3_digits.jpg"></td>
+      <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/mnist_with_4_digits.jpg"></td>
      </tr>
      <tr>
-      <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/minist_with_5_digits.jpg"></td>
-      <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/minist_with_6_digits.jpg"></td>
-      <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/minist_with_7_digits.jpg"></td>
+      <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/mnist_with_5_digits.jpg"></td>
+      <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/mnist_with_6_digits.jpg"></td>
+      <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/mnist_with_7_digits.jpg"></td>
      </tr>
      <tr>
-      <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/minist_with_8_digits.jpg"></td>
-      <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/minist_with_9_digits.jpg"></td>
-      <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/minist_with_10_digits.jpg"></td>
+      <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/mnist_with_8_digits.jpg"></td>
+      <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/mnist_with_9_digits.jpg"></td>
+      <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/mnist_with_10_digits.jpg"></td>
      </tr>
      <tr>
-      <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/digits.jpg"></td>
+      <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/digits_np.jpg"></td>
       <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/breast_cancer.jpg"></td>
       <td><img src = "https://github.com/lxcnju/Neighbourhood-Component-Analysis/blob/master/pics/iris.jpg"></td>
      </tr>
